@@ -1,5 +1,5 @@
 # docker build -t alpine-node
-FROM node:8.14-alpine
+FROM node:10.14-alpine
 
 RUN npm install -g nodemon
 RUN npm install -g serve

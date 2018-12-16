@@ -2,7 +2,7 @@ version: '3'
 services:
   frontend:
     container_name: "frontend"
-    image: alpine-node
+    image: skwcrd/alpine-node
     ports:
       - 3000:3000
     volumes:
@@ -14,7 +14,7 @@ services:
   
   backend:
     container_name: "backend"
-    image: alpine-node
+    image: skwcrd/alpine-node
     ports:
       - 4000:4000
     volumes:
